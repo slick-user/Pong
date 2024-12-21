@@ -1,0 +1,14 @@
+don't know how I plan to organize the source code yet but I do feel this is kind of fun to work with, Visual Studio is it's own kind of nice but you know How I am at this point.
+
+=> Currently I am writing the whole thing in one file.
+-> I think OOP would already have done me some good right now since I am defining Player 1 and Player 2 Properties.
+? Is there any reason to use variable types such as short for compactness of memory? I made an Unsigned Short and I might keep doing these BS implementations
+=> Made a simple copy or quick reference version for if I use SDL for other projects and don't want to be confused. Refactoring the code now.
+* Added Start Up Checks
+* Separated Chunks into their own Functions
+-> So we moved the pointers to be global variables probably a good idea.
+* Finished Refactoring, Feel Like I did a good job but we are not even close to actual progress
+=> I made a basic version of the ball, and collision conditions, massive revamps in order later.... All game libraries at the end of the day end up being the same, when it comes to game logic you have to eventually get your hands dirty, uptill now SDL reminds me a lot of Pygame, heck it basically feels like I am using Pygame again... except I like how the code is presented more than I did with Pygame
+
+=> Games basically done all basic functionality is present, collisions, ball movement, scoring. I could touch it up and then if I want to go crazy with the game design and try some stuff to liven Pong up but we basically have a version similar to the classic original game, maybe next I'll remake Flicky.
+* Added Randomized increases to speed on collions and directions to the ball
